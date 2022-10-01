@@ -1,4 +1,4 @@
-basic.forever(function () {
+function Play_Song_of_Healing () {
     music.playTone(988, music.beat(BeatFraction.Whole))
     music.playTone(880, music.beat(BeatFraction.Whole))
     music.playTone(698, music.beat(BeatFraction.Whole))
@@ -55,4 +55,5 @@ basic.forever(function () {
     music.playTone(494, music.beat(BeatFraction.Whole))
     music.playTone(587, music.beat(BeatFraction.Whole))
     music.playTone(659, music.beat(BeatFraction.Breve))
-})
+}
+Play_Song_of_Healing()
